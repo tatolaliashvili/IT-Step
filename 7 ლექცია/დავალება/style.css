@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 1 */
+/* .container {
+    display: grid;
+    grid-template-columns: 200px 1fr 100px;
+    gap: 15px;
+    text-align: center;
+}
+
+.item1, .item2, .item3 {
+    background-color: aquamarine;
+} */
+
+/* 2 */
+
+/* .container {
+    display: grid;
+    grid-template-columns: 1fr repeat(2, 2fr) 1fr;
+    gap: 15px;
+    text-align: center;
+}
+
+.item1, .item2, .item3, .item4 {
+    background-color: blueviolet;
+} */
+
+/* 3 */
+
+/* .container {
+    display: grid;
+    grid-template-columns:minmax(100px, 1fr) minmax(200px, 400px);
+    gap: 15px;
+    text-align: center;
+}
+
+.item1, .item2 {
+    background-color: brown;
+} */
+
+/* 4 */
+
+/* .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 15px;
+    text-align: center;
+}
+
+.item1, .item2, .item3, .item4 {
+    background-color: chartreuse;
+}
+
+.item2 {
+    grid-area: 1 / 2 / 3 / 4;
+} */
+
+/* 5 */
+
+/* .item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    gap: 15px;
+    text-align: center;
+}
+
+.item1, .item2, .item3, .item4, .item5, .item6 {
+    background-color: darkgoldenrod; 
+}
+
+.item1 {
+    grid-column-start: 3;
+}
+
+.item2 {
+    grid-row-start: 1;
+}
+
+.item3 {
+    grid-row-start: 1;
+}
+
+.item4 {
+    grid-column-start: 2;
+}
+
+.item6 {
+    grid-row-start: 2;
+} */
+
+/* 6 */
+
+body {
+  display: flex;
+  justify-content: center;
+  margin-top: 96px;
+  margin-bottom: 96px;
+}
+
+.container {
+  display: grid;
+  background-color: rgb(217, 233, 247);
+  grid-template-rows: 1fr 1fr;
+  /* grid-template-columns: repeat(3 1fr);          რატომ კარგავს მნიშვნელობას?        */
+  gap: 15px;
+  padding: 72px;
+  width: 1140px;
+  justify-content: center;
+}
+
+.item {
+  background-color: white;
+  color: black;
+  padding: 24px;
+  border-radius: 8px;
+}
+
+.text-padding {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  gap: 24px;
+}
+
+img,
+.name {
+  display: flex;
+  gap: 6px;
+}
+
+.p1 {
+  color: bisque;
+}
+
+.name1 {
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  width: 50px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+h1 {
+  font-family: Cambria;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+p {
+  font-family: Cambria;
+  font-size: 12px;
+}
+
+.item1 {
+  background-color: blueviolet;
+  color: white;
+  font-family: Cambria;
+  grid-area: 1 / 1 / 1 / 3;
+}
+
+.item2 {
+  background-color: rgb(82, 79, 79);
+  color: white;
+  font-family: Cambria;
+  grid-area: 1 / 3;
+  width: 200px;
+}
+
+.item3 {
+  font-family: Cambria;
+  grid-area: 1 / 4 / 3 / 4;
+  width: 200px;
+}
+
+.item4 {
+  font-family: Cambria;
+  grid-area: 2 / 1;
+  width: 200px;
+}
+
+.item5 {
+  background-color: rgb(12, 12, 12);
+  color: white;
+  font-family: Cambria;
+  grid-area: 2 / 2 / 2 / 4;
+}

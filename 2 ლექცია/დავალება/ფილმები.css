@@ -1,0 +1,13 @@
+img {
+  width: 400px;
+}
+
+li {
+  color: solid black;
+  font-weight: bold;
+  font-size: larger;
+}
+
+ul {
+  font-style: italic;
+}

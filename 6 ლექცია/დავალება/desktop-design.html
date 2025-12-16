@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="desktop-design.css" />
+    <title>Desktop-Design</title>
+  </head>
+  <body>
+    <div class="formbackground">
+      <form action="">
+        <h1>Contact Us</h1>
+
+        <div class="flex">
+          <div class="collumn">
+            <label for="first-name" class="column"
+              >First Name <span>*</span></label>
+            <input type="text" required />
+          </div>
+          <div class="collumn">
+            <label for="last-name">Last name <span>*</span></label>
+            <input type="text" required />
+          </div>
+        </div>
+
+        <div class="collumn">
+          <label for="email">Email Address <span>*</span></label>
+          <input type="email" required />
+        </div>
+
+        <label for="radio">Query Type <span>*</span></label>
+
+        <div class="flex">
+          <label class="radio-border">
+            <input type="radio" name="query" value="support" required />General Enquiry
+          </label>
+
+          <label class="radio-border">
+            <input type="radio" name="query" value="support" required />Support Request
+          </label>
+        </div>
+
+        <div class="collumn">
+          <label for="message">Message <span>*</span></label>
+          <textarea name="message" id="message" required></textarea>
+        </div>
+
+        <div class="flex">
+          <input class="inline" type="checkbox" /> I consent to being contacted by the team
+          <span>*</span>
+        </div>
+
+        <button>Submit</button>
+      </form>
+    </div>
+  </body>
+</html>

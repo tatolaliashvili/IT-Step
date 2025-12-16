@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background: none;
+  border: none;
+}
+
+button,
+input {
+  cursor: pointer;
+}
+
+table,
+th,
+td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  margin: auto;
+  margin-top: 80px;
+  text-align: center;
+  padding: 10px;
+}
+
+th {
+  background-color: gray;
+}
+
+.first {
+  background-color: green;
+}
+
+.second {
+  background-color: yellow;
+}
+
+.third {
+  background-color: aqua;
+}

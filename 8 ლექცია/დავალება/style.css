@@ -1,0 +1,229 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 24px;
+  background: radial-gradient(
+      ellipse at top,
+      rgba(100, 200, 255, 0.4) 0%,
+      transparent 60%
+    ),
+    radial-gradient(circle at center, #0b1e33 0%, #0d1524 40%, #111822 100%),
+    linear-gradient(
+      135deg,
+      #0f172a 0%,
+      #1e1b4b 25%,
+      #0f2233 50%,
+      #1e2a44 75%,
+      #0f172a 100%
+    ),
+    linear-gradient(
+      45deg,
+      transparent 30%,
+      rgba(86, 61, 255, 0.08) 45%,
+      transparent 55%
+    );
+  box-shadow: 0 0 30px rgba(130, 200, 255, 0.6),
+    0 0 60px rgba(100, 180, 255, 0.4), inset 0 0 40px rgba(80, 160, 255, 0.2),
+    inset 0 8px 32px rgba(0, 0, 0, 0.8);
+  text-shadow: 0 0 10px #8eecff, 0 0 20px #5eaaff, 0 0 40px #4466ff;
+
+  color: #aaddff;
+  padding: 2rem 1rem;
+  text-align: center;
+  font-family: "Cinzel", "Times New Roman", serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+  position: relative;
+  overflow: hidden;
+}
+
+.audio {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-panel {
+  background-color: #0b1e33;
+}
+
+nav {
+  display: flex;
+  align-items: end;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 56px;
+  color: white;
+  font-size: 32px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: end;
+}
+
+.search-bar input {
+  width: 512px;
+  height: 36px;
+  border: 1px solid;
+  border-radius: 8px;
+  background: radial-gradient(
+      ellipse at top,
+      rgba(100, 200, 255, 0.4) 0%,
+      transparent 60%
+    ),
+    radial-gradient(circle at center, #0b1e33 0%, #0d1524 40%, #111822 100%),
+    linear-gradient(
+      135deg,
+      #0f172a 0%,
+      #1e1b4b 25%,
+      #0f2233 50%,
+      #1e2a44 75%,
+      #0f172a 100%
+    ),
+    linear-gradient(
+      45deg,
+      transparent 30%,
+      rgba(86, 61, 255, 0.08) 45%,
+      transparent 55%
+    );
+  box-shadow: 0 0 30px rgba(130, 200, 255, 0.6),
+    0 0 60px rgba(100, 180, 255, 0.4), inset 0 0 40px rgba(80, 160, 255, 0.2),
+    inset 0 8px 32px rgba(0, 0, 0, 0.8);
+  text-shadow: 0 0 10px #8eecff, 0 0 20px #5eaaff, 0 0 40px #4466ff;
+
+  color: #aaddff;
+  text-align: center;
+  font-family: "Cinzel", "Times New Roman", serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+  position: relative;
+  overflow: hidden;
+}
+
+body {
+  background-color: rgb(10, 18, 30);
+}
+
+video {
+  width: 900px;
+  height: 600px;
+  object-fit: fill;
+}
+
+h1 {
+  background: radial-gradient(
+      ellipse at top,
+      rgba(100, 200, 255, 0.4) 0%,
+      transparent 60%
+    ),
+    radial-gradient(circle at center, #0b1e33 0%, #0d1524 40%, #111822 100%),
+    linear-gradient(
+      135deg,
+      #0f172a 0%,
+      #1e1b4b 25%,
+      #0f2233 50%,
+      #1e2a44 75%,
+      #0f172a 100%
+    ),
+    linear-gradient(
+      45deg,
+      transparent 30%,
+      rgba(86, 61, 255, 0.08) 45%,
+      transparent 55%
+    );
+  box-shadow: 0 0 30px rgba(130, 200, 255, 0.6),
+    0 0 60px rgba(100, 180, 255, 0.4), inset 0 0 40px rgba(80, 160, 255, 0.2),
+    inset 0 8px 32px rgba(0, 0, 0, 0.8);
+  text-shadow: 0 0 10px #8eecff, 0 0 20px #5eaaff, 0 0 40px #4466ff;
+
+  color: #aaddff;
+  text-align: center;
+  font-family: "Cinzel", "Times New Roman", serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+  position: relative;
+  overflow: hidden;
+  font-size: 56px;
+}
+
+.first-div,
+.second-div,
+.third-div,
+.fourth-div,
+.fifth-div {
+  margin-top: 96px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 56px;
+}
+
+footer {
+  margin-top: 72px;
+  border-top: 2px solid #6fd1ff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(111, 209, 255, 0.3),
+    inset 0 0 5px rgba(111, 209, 255, 0.3);
+  background: rgba(26, 26, 46, 0.7);
+  backdrop-filter: blur(5px);
+  padding: 24px 0;
+}
+
+.wowpedia-logo {
+  width: 100px;
+  height: 80px;
+}
+
+.footer-link {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.footer-p {
+  background: radial-gradient(
+      ellipse at top,
+      rgba(100, 200, 255, 0.4) 0%,
+      transparent 60%
+    ),
+    radial-gradient(circle at center, #0b1e33 0%, #0d1524 40%, #111822 100%),
+    linear-gradient(
+      135deg,
+      #0f172a 0%,
+      #1e1b4b 25%,
+      #0f2233 50%,
+      #1e2a44 75%,
+      #0f172a 100%
+    ),
+    linear-gradient(
+      45deg,
+      transparent 30%,
+      rgba(86, 61, 255, 0.08) 45%,
+      transparent 55%
+    );
+  box-shadow: 0 0 30px rgba(130, 200, 255, 0.6),
+    0 0 60px rgba(100, 180, 255, 0.4), inset 0 0 40px rgba(80, 160, 255, 0.2),
+    inset 0 8px 32px rgba(0, 0, 0, 0.8);
+  text-shadow: 0 0 10px #8eecff, 0 0 20px #5eaaff, 0 0 40px #4466ff;
+
+  color: #aaddff;
+  padding: 2rem 1rem;
+  text-align: center;
+  font-family: "Cinzel", "Times New Roman", serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+  position: relative;
+  overflow: hidden;
+}

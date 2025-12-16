@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background: none;
+  border: none;
+}
+
+button,
+input {
+  cursor: pointer;
+}
+
+img {
+  width: 100%;
+}
+
+table,
+th,
+td {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-collapse: collapse;
+}
+
+.mornin{
+  background-color: rgba(255, 55, 0, 0.564);
+}
+
+.afternoon{
+  background-color: rgba(2, 93, 184, 0.564);
+}
+
+.special {
+  background-color: coral !important;
+}
+
+table {
+  /* margin: 20px 12px;  */
+  margin: auto;
+  margin-top: 52px;
+  max-width: 900px;
+  width: 100%;
+}
+th {
+  background: rgba(154, 0, 0, 0.8);
+}
+th,
+td {
+  padding: 12px 20px;
+  text-align: center;
+}
+
+th {
+    font-size: 20px;
+    color: aliceblue;
+    font-weight: 800;
+    font-family: monospace;
+    font-style: normal;
+    letter-spacing: 0.5px;
+}
+
+p{
+    font-size: 16px;
+    color: rgb(9, 9, 9);
+    line-height: 150%;
+    
+    text-decoration: overline;
+    text-transform: capitalize;
+}
+
+section {
+  max-width: 1280px;
+  padding: 120px;
+  background-color: rgba(38, 0, 229, 0.224);
+  min-height: 500px;
+}
+
+.place {
+    font-size: 32px;
+}
+
+#fav {
+    color: white;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    background-image: url('https://storage.googleapis.com/gweb-uniblog-publish-prod/images/earth-4k.width-1300.jpg');
+}
+

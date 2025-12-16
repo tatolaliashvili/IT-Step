@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  max-width: 100%;
+  background-color: blue;
+  color: white;
+  padding: 20px 40px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 40px;
+  justify-content: center;
+}
+
+.card {
+  width: 250px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card p {
+  padding: 15px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+.card {
+  position: relative;
+}
+.prom {
+  background-color: red;
+  color: white;
+  padding: 10px;
+  position: absolute;
+  right: -10px;
+}
+
+.boxes {
+  position: relative;
+}
+
+.box {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-color: lightgray;
+  margin: 40px auto;
+}
+
+.box1 {
+  background-color: orange;
+  width: 220px;
+  height: 220px;
+  z-index: 5;
+}
+.box2 {
+  background-color: red;
+  width: 240px;
+  height: 240px;
+  z-index: 4;
+}
+.box3 {
+  background-color: rgb(0, 68, 255);
+  width: 260px;
+  height: 260px;
+  z-index: 3;
+}
+.box4 {
+  background-color: rgb(255, 0, 119);
+  z-index: 6;
+}
+.box5 {
+  background-color: rgb(0, 255, 21);
+  width: 280px;
+  height: 280px;
+  z-index: 2;
+}
+.box6 {
+  background-color: rgb(40, 25, 18);
+  width: 300px;
+  height: 300px;
+  z-index: -1;
+}
+
+aside {
+  /* position: relative; */
+  z-index: 7;
+  width: 400px;
+  height: 800px;
+
+  background-color: rgb(222, 28, 28);
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  background-color: green;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  z-index: 10;
+}

@@ -1,0 +1,164 @@
+/* დავალება 1 */
+.text1 {
+  width: 500px;
+  height: 200px;
+  color: white;
+  background-color: blue;
+}
+
+/* დავალება 2 */
+.text2 {
+  width: 500px;
+  height: 500px;
+  color: black;
+  background-color: green;
+}
+
+/* დავალება 3 */
+[id] {
+  width: 500px;
+  height: 200px;
+}
+
+#item1 {
+  border: 5px blue dotted;
+}
+
+#item2 {
+  border: 2px red dashed;
+}
+
+#item3 {
+  border: 50px green ridge;
+}
+
+#item4 {
+  border: 15px yellow double;
+}
+
+/* დავალება 4 */
+#item5 {
+  border: 20px inset rgb(116, 95, 255);
+  width: 500px;
+  inset: 300px;
+}
+
+/* დავალება 5 */
+#item6 {
+  width: 300px;
+  height: 200px;
+  border: 5px solid blue;
+  border-bottom: 5px;
+  border-top: 5px;
+}
+
+/* დავალება 6 */
+#item7 {
+  width: 300px;
+  height: 200px;
+  border: 10px dashed green;
+  border-left: 10px;
+  border-right: 10px;
+  background-color: yellow;
+}
+
+/* დავალება 7 */
+#item8 {
+  width: 300px;
+  height: 200px;
+  border: 10px;
+  border-top: 10px dashed black;
+  border-bottom: 10px dotted red;
+  border-left: 10px ridge green;
+  border-right: 10px solid blue;
+}
+
+/* დავალება 8 */
+#item9 {
+  width: 300px;
+  height: 200px;
+  border: 10px ridge green;
+  border-radius: 30px;
+}
+
+/* დავალება 9 */
+#item10 {
+  width: 200px;
+  height: 200px;
+  border: 10px solid red;
+  border-radius: 100px;
+}
+
+/* დავალება 10 */
+#item11 {
+  width: 300px;
+  height: 100px;
+  background-color: aquamarine;
+  border-radius: 50px;
+}
+
+/* დავალება 11 */
+#item12 {
+  width: 300px;
+  height: 100px;
+  border: 5px solid purple;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+/* დავალება 12 */
+#item13 {
+  width: 300px;
+  height: 100px;
+  border: 5px solid red;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 15px;
+}
+/* დავალება 13 */
+#item14 {
+  width: 100px;
+  height: 100px;
+  border: 5px solid red;
+  border-radius: 30%;
+}
+/* დავალება 14 */
+#item15 {
+  width: 100px;
+  height: 100px;
+  border: 5px solid red;
+  border-radius: 100%;
+}
+/* დავალება 15 */
+#item16 {
+  width: 300;
+  height: 100px;
+  border: 5px dotted purple;
+  border-radius: 150%;
+}
+/* დავალება 16 */
+#item17 {
+  width: 700px;
+  height: 500px;
+  background: url(https://images.pexels.com/photos/1557652/pexels-photo-1557652.jpeg?cs=srgb&dl=pexels-lukas-hartmann-304281-1557652.jpg&fm=jpg);
+  border: 3px solid lightgreen;
+}
+/* დავალება 17 */
+body {
+  background: #f8f9fa
+    url(https://t3.ftcdn.net/jpg/02/36/23/66/360_F_236236696_mTYBnVvXVykDspnSwLdzo16jqjdVLdXy.jpg);
+  background-size: 60px;
+}
+/* დავალება 18 */
+ul {
+  margin: auto;
+  list-style-type: square;
+}
+/* დავალება 19 */
+ol {
+  margin: auto;
+  list-style-type: upper-roman;
+  list-style-type: lower-roman;
+}
