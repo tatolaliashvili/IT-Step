@@ -60,6 +60,17 @@ nav {
   align-items: end;
 }
 
+a {
+  color: #aaddff;
+  padding: 2rem 1rem;
+  text-align: center;
+  font-family: "Cinzel", "Times New Roman", serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+  position: relative;
+  overflow: hidden;
+}
+
 ul {
   display: flex;
   list-style-type: none;
