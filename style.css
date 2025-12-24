@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 24px;
+}
+
+h1 {
+  padding: 0 0 24px 56px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  padding: 12px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  font-size: 24px;
+  transition-delay: 0.05s;
+}
