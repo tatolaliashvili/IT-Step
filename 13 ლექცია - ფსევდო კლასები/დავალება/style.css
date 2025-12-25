@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.whole {
+  padding: 0 54px;
+}
+
+body {
+  background-color: rgb(214, 209, 209);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 36px;
+}
+
+header h1 a {
+  font-size: 24px;
+  gap: 24px;
+}
+
+span {
+  font-size: 16px;
+  font-weight: 100;
+}
+
+header h1::before {
+  content: "";
+  display: inline-block;
+  border: 1px solid black;
+  border: none;
+  border-radius: 50%;
+  background-color: orange;
+  width: 20px;
+  height: 20px;
+}
+
+nav ul {
+  display: flex;
+  gap: 24px;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.lia {
+  font-size: 18px;
+}
+
+.lia:hover {
+  font-size: 22px;
+  transition: 0.3s;
+  color: rgb(82, 80, 80);
+}
+
+.middlea {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  padding: 0 24px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 196px 0;
+  gap: 56px;
+}
+
+main img {
+  border-radius: 50%;
+  width: 456px;
+  height: 456px;
+}
+
+main div h1 {
+  font-size: 126px;
+  padding: 0 0 36px;
+}
+
+main div h2 {
+  font-size: 24px;
+  padding: 0 0 12px;
+}
+
+main div p {
+  max-width: 400px;
+}
+
+div .circles {
+  display: flex;
+  padding: 24px 0 0;
+  gap: 24px;
+}
+
+div .circles a {
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 46px 28px;
+  font-weight: 900;
+  font-size: 24px;
+}
+
+div .circles .orange {
+  background-color: orange;
+}
+
+div .circles .orange:hover {
+  transition: 0.3s;
+  background-color: rgb(172, 115, 10);
+}
+
+div .circles .red {
+  background-color: red;
+}
+
+div .circles .red:hover {
+  transition: 0.3s;
+  background-color: rgb(161, 14, 14);
+}
+
+div .circles .aqua {
+  background-color: aqua;
+}
+
+div .circles .aqua:hover {
+  transition: 0.3s;
+  background-color: rgb(16, 161, 161);
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 96px;
+  border-top: 1px solid black;
+  padding: 36px 24px;
+}
+
+@media screen and (max-width: 450px) {
+  main,
+  footer,
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  main div p {
+    margin-left: 32px;
+  }
+}

@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.whole {
+  padding: 0 54px;
+}
+
+body {
+  background-color: rgb(214, 209, 209);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 36px;
+}
+
+header h1 a {
+  font-size: 24px;
+  gap: 24px;
+}
+
+span {
+  font-size: 16px;
+  font-weight: 100;
+}
+
+header h1::before {
+  content: "";
+  display: inline-block;
+  border: 1px solid black;
+  border: none;
+  border-radius: 50%;
+  background-color: orange;
+  width: 20px;
+  height: 20px;
+}
+
+nav ul {
+  display: flex;
+  gap: 24px;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.lia {
+  font-size: 18px;
+}
+
+.lia:hover {
+  font-size: 22px;
+  transition: 0.3s;
+  color: rgb(82, 80, 80);
+}
+
+.middlea {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  padding: 0 24px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 96px;
+  border-top: 1px solid black;
+  padding: 36px 24px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contactdiv h1 {
+  font-size: 54px;
+}
+
+h1,
+.h1p {
+  padding: 8px 0;
+}
+
+.nopad {
+  padding: 16px 0;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+}
+
+.card .firstrow {
+  display: flex;
+  flex-direction: column;
+  padding: 24px 0;
+  width: 100%;
+}
+
+.cardflex {
+  display: flex;
+  gap: 12px;
+  justify-content: space-between;
+}
+
+input {
+  padding: 12px 0;
+}
+
+textarea {
+  padding: 24px 0;
+}
+
+button {
+  padding: 14px;
+  border-radius: 24px;
+  background-color: orange;
+  font-size: 21px;
+  font-weight: 900;
+}
+
+main {
+  padding: 256px;
+}
