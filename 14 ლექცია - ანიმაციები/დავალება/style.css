@@ -181,3 +181,9 @@ img {
   color: white;
   transform: rotate(-45grad);
 }
+
+@media screen and (max-width: 800px) {
+  .card2:hover {
+    margin: 32px;
+  }
+}
