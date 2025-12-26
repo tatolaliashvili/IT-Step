@@ -16,6 +16,7 @@ body {
 
 .card {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   max-width: 400px;
   border: 1px solid gray;
@@ -93,6 +94,7 @@ img {
 
 .container2 {
   display: flex;
+  flex-wrap: wrap;
   margin-top: 196px;
   justify-content: center;
   gap: 16px;
@@ -104,6 +106,7 @@ img {
   width: 350px;
   padding: 36px;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: space-between;
   min-height: 500px;
