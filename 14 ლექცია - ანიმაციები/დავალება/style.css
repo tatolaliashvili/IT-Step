@@ -192,6 +192,7 @@ img {
   }
 
   .card2:hover {
+    transform: scale(1.1);
     margin: 46px 0;
   }
 }
