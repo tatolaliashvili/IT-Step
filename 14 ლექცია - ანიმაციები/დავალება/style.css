@@ -183,7 +183,15 @@ img {
 }
 
 @media screen and (max-width: 800px) {
+  .card {
+    width: 200px;
+  }
+
+  img {
+    width: 200px;
+  }
+
   .card2:hover {
-    margin: 32px;
+    margin: 46px 0;
   }
 }
