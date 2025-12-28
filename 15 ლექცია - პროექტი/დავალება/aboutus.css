@@ -38,8 +38,12 @@ nav ul li a {
 }
 
 footer {
+  margin-top: 86px;
+  background-image: url(pictures/bckgr.png);
   background-color: #ffffff03;
   backdrop-filter: blur(200px);
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 330px;
 }
 
@@ -103,4 +107,296 @@ footer {
   letter-spacing: 0%;
   color: #424242;
   text-decoration: none;
+}
+
+.section1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+  gap: 59px;
+  background-image: url(pictures/bckgr.png);
+  backdrop-filter: blur(140px);
+}
+
+.section1text {
+  margin-top: 40px;
+  width: 392px;
+  height: 153px;
+  display: flex;
+  flex-direction: column;
+}
+
+.section1text h1 {
+  font-family: Roboto;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 45px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #00446a;
+  width: 235px;
+  height: 53px;
+}
+
+.section1text p {
+  font-family: Inter;
+  font-weight: 300;
+  font-style: Light;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #585858;
+  width: 391px;
+  height: 76px;
+  padding-top: 24px;
+}
+
+.section1info {
+  display: flex;
+  padding-top: 54px;
+  gap: 59px;
+  width: 392px;
+  height: 68px;
+  text-align: center;
+}
+
+.section1info h2 {
+  font-family: Roboto;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #ff7233;
+  width: 110px;
+  height: 38px;
+}
+
+.section1info span {
+  font-family: Roboto;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #26688d;
+  width: 74px;
+  height: 23px;
+  padding-top: 7px;
+}
+
+.section1text button {
+  margin-top: 115px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 128px;
+  height: 42px;
+  border-radius: 10px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 63px;
+  background-color: #00446a;
+  font-family: Inter;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #ffffff;
+  text-wrap: nowrap;
+}
+
+.section2 {
+  margin-top: 160px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.section2 h1 {
+  font-family: Roboto;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 45px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #00446a;
+}
+
+.section2 p {
+  font-family: Inter;
+  font-weight: 300;
+  font-style: Light;
+  font-size: 15px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #575656;
+  padding-top: 33px;
+}
+
+.section3 .cards {
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+  gap: 31px;
+}
+
+.section3 .cards .card1,
+.section3 .cards .card2,
+.section3 .cards .card3 {
+  border: 2px solid #d5e5ee;
+  width: 314px;
+  height: 454px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding: 22px 28px;
+}
+
+.section3 .cards .card1:hover,
+.section3 .cards .card2:hover,
+.section3 .cards .card3:hover {
+  cursor: pointer;
+  background-color: #00446a;
+}
+
+.section3 .cards .card1:hover h1,
+.section3 .cards .card2:hover h1,
+.section3 .cards .card3:hover h1,
+.section3 .cards .card1:hover h2,
+.section3 .cards .card2:hover h2,
+.section3 .cards .card3:hover h2,
+.section3 .cards .card1:hover h2 span,
+.section3 .cards .card2:hover h2 span,
+.section3 .cards .card3:hover h2 span {
+  color: #ffffff;
+}
+
+.section3 .cards .card1:hover p,
+.section3 .cards .card2:hover p,
+.section3 .cards .card3:hover p {
+  color: #f3f3f3;
+}
+
+.section3 .cards .card1:hover ul li,
+.section3 .cards .card2:hover ul li,
+.section3 .cards .card3:hover ul li {
+  color: #fafafa;
+}
+
+.section3 .cards .card1:hover ul li::before,
+.section3 .cards .card2:hover ul li::before,
+.section3 .cards .card3:hover ul li::before {
+  color: #ff9e72;
+}
+
+.section3 .cards .card1:hover button,
+.section3 .cards .card2:hover button,
+.section3 .cards .card3:hover button {
+  background-color: #ff7233;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.section3 .cards .card1 h1,
+.section3 .cards .card2 h1,
+.section3 .cards .card3 h1 {
+  font-family: Inter;
+  font-weight: 600;
+  font-style: Semi Bold;
+  font-size: 22px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #00263c;
+}
+
+.section3 .cards .card1 h2,
+.section3 .cards .card2 h2,
+.section3 .cards .card3 h2 {
+  font-family: Inter;
+  font-weight: 600;
+  font-style: Semi Bold;
+  font-size: 30px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #ff7233;
+  padding-top: 16px;
+}
+
+.section3 .cards .card1 h2 span,
+.section3 .cards .card2 h2 span,
+.section3 .cards .card3 h2 span {
+  font-family: Inter;
+  font-weight: 600;
+  font-style: Semi Bold;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #ff7233;
+}
+
+.section3 .cards .card1 p,
+.section3 .cards .card2 p,
+.section3 .cards .card3 p {
+  font-family: Inter;
+  font-weight: 300;
+  font-style: Light;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #424242;
+  padding-top: 10px;
+}
+
+.section3 .cards .card1 ul li,
+.section3 .cards .card2 ul li,
+.section3 .cards .card3 ul li {
+  list-style-type: none;
+  font-family: Inter;
+  font-weight: 300;
+  font-style: Light;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #575656;
+}
+
+.section3 .cards ul li::before {
+  content: "✓";
+  padding-right: 10px;
+  width: 24px;
+  height: 24px;
+  color: #d5d5d5;
+}
+
+.section3 .cards .card1 ul,
+.section3 .cards .card2 ul,
+.section3 .cards .card3 ul {
+  display: flex;
+  flex-direction: column;
+  gap: 39px;
+  padding-top: 44px;
+}
+
+.section3 .cards .card1 button,
+.section3 .cards .card2 button,
+.section3 .cards .card3 button {
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 185px;
+  height: 41px;
+  border: 2px solid #ff7233;
+  border-radius: 4px;
+  background-color: #ffffff;
+  font-family: Inter;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #ff7233;
 }

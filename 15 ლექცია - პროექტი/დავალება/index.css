@@ -6,17 +6,22 @@
 
 header {
   display: flex;
+  justify-content: space-between;
   height: 98px;
   background-color: #ffffff;
+}
+
+nav {
+  display: flex;
+  margin-top: 37px;
+  width: 215px;
+  margin-right: 450px;
 }
 
 nav ul {
   display: flex;
   list-style-type: none;
   gap: 49px;
-  margin-top: 37px;
-  margin-left: 1085px;
-  width: 215px;
 }
 
 nav ul li a {

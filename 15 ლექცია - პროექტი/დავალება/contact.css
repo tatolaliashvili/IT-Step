@@ -38,9 +38,13 @@ nav ul li a {
 }
 
 footer {
+  background-image: url(pictures/bckgr.png);
   background-color: #ffffff03;
   backdrop-filter: blur(200px);
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 330px;
+  margin-top: 89px;
 }
 
 .footermain {
@@ -103,4 +107,84 @@ footer {
   letter-spacing: 0%;
   color: #424242;
   text-decoration: none;
+}
+
+.section1 {
+  background-image: url(pictures/bckgr.png);
+  backdrop-filter: blur(140px);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  gap: 157px;
+}
+
+.section1 img {
+  width: 729px;
+  height: 538px;
+}
+
+.section1 .contact {
+  width: 414px;
+  height: 538px;
+  display: flex;
+  flex-direction: column;
+}
+
+.section1 .contact h1 {
+  font-family: Roboto;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 45px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #00446a;
+}
+
+.section1 .contact p {
+  font-family: Inter;
+  font-weight: 300;
+  font-style: Light;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #585858;
+  padding-top: 30px;
+}
+
+.section1 .contactinput {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  margin-top: 48px;
+}
+
+.section1 .contactinput input {
+  height: 48px;
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0px 0px 34px 0px #00446a26;
+  background-color: #ffffff;
+}
+
+.section1 .contactinput textarea {
+  height: 180px;
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0px 0px 34px 0px #00446a26;
+  background-color: #ffffff;
+}
+
+.section1 .contactinput button {
+  height: 48px;
+  border-radius: 4px;
+  border: none;
+  background-color: #00446a;
+  font-family: Inter;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #ffffff;
+  cursor: pointer;
 }
